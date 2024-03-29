@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+
+}
+.info{
+    margin: 0%;
+    margin-left: 100px;
+    margin-top: 200px;
+    padding-left: 50px;
+    padding-top: 60px;
+    padding: 40px 0;
+}
+.img1 {
+    background-image: url(vamsi.jpg);
+    float: inline-end;
+    display: block;
+    margin-left: auto;
+    padding-right:40px ;
+    padding-left: 300px;
+  }
+.hero{
+    width: 100%;
+    background-image: url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    position: relative;
+    font-family: sans-serif;
+}
+
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 45px;
+    padding-left: 8%;
+    padding-right: 8%;
+}
+.navbar{
+    width: 86%;
+    display: flex;
+    margin: auto;
+    padding: 15px 0;
+    align-items: center;
+    justify-content:space-between ;
+}
+.navbar .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top:-3%;
+    margin-left: -2%;
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding:10px 25px ;
+
+}
+
+nav ul li a:hover{
+    color: red;
+    transition: .4s;
+
+}
+.about{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+
+}
+.about img{
+    height: auto;
+    width: 430px;
+    
+}
+.about-text{
+    width: 550px;
+}
+.main{
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-text h2{
+    color: blue;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-text h5{
+    color: white;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p{
+    color: bisque;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.about-projects h2{
+    color: blue;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+.about-projects p{
+    color: bisque;
+    letter-spacing: 1px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+}
+.projects{
+    width: 100%;
+    padding: 100px 0px;
+    background-color: black;
+
+}
+.projects img{
+    height: auto;
+    width: 430px;
+    
+}
+.about-projects{
+    width: 550px;
+}
+button{
+    background-color: antiquewhite;
+    color: beige;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-size: bold;
+    padding: 13px 30px;
+}
+button:hover{
+    background-color: transparent;
+    border: 2px solid red;
+}
